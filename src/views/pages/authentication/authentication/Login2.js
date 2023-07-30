@@ -54,7 +54,7 @@ const Page = () => {
 
     try {
       fetch(
-        "http://parkzserver-001-site1.btempurl.com/api/business-manager-authentication",
+        "https://parkzserver-001-site1.btempurl.com/api/business-manager-authentication",
         requestOptions
       )
         .then((response) => {
